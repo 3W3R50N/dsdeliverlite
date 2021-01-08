@@ -1,4 +1,4 @@
-function StepHeaders() {
+function StepsHeaders() {
     return (
         <header className="orders-steps-container">
             <div className="orders-steps-content">
@@ -21,4 +21,4 @@ function StepHeaders() {
 
 }
 
-export default StepHeaders;
+export default StepsHeaders;
