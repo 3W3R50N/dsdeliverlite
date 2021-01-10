@@ -31,7 +31,7 @@ function Orders() {
       
         if (isAlreadySelected) {
           const selected = selectedProducts.filter(item => item.id !== product.id);
-          setSelectedProducts(selectled);
+          setSelectedProducts(selected);
         } else {
           setSelectedProducts(previous => [...previous, product]);
         }
